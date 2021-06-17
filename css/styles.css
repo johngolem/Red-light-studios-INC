@@ -1,0 +1,13 @@
+#heading{
+    font-style: inherit;
+    font-size: 35px;
+    background-position: bottom;
+    color: rgb(19, 39, 2);
+    position: relative;
+}
+.body{
+    background-image: url(http://127.0.0.1:5500/images/theme.jpg);
+}
+.col-md{
+    color: rgb(85, 182, 47);
+}
