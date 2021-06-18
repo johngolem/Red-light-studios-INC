@@ -1,13 +1,14 @@
-#heading{
-    font-style: inherit;
-    font-size: 35px;
-    background-position: bottom;
-    color: rgb(19, 39, 2);
-    position: relative;
-}
+
 .body{
-    background-image: url(http://127.0.0.1:5500/images/theme.jpg);
+    background-image: /*url(http://127.0.0.1:5500/images/theme.jpg);*/
 }
+.neon-text {
+
+  font-family: 'font font-family: stint ultra condensed;', cursive;
+  font-size: 34px;
+    }
+  }
+
 .col-md{
     color: rgb(85, 182, 47);
 }
