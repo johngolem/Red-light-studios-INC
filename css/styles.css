@@ -14,12 +14,6 @@
       } 
   } 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-.body{
-    color: black;
-    background-color: #B22222;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 100%;
-}
 
 .col-md{
     color: rgb(85, 182, 47);
@@ -30,6 +24,9 @@
 }
 .wlcm-img-card{
 
+}
+body{
+  background-color: dimgrey;
 }
 #logo{
   margin-top: 5%;
