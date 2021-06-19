@@ -1,8 +1,13 @@
 
 .body{
-    background-image: /*url(http://127.0.0.1:5500/images/theme.jpg);*/
+    color: black;
+    background-color:#DC143C;
 }
 
 .col-md{
     color: rgb(85, 182, 47);
+}
+.form-group{
+  background-color: blanchedalmond;
+  color: black;
 }
