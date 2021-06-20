@@ -19,14 +19,15 @@
     color: rgb(85, 182, 47);
 }
 .form-group{
-  background-color: blanchedalmond;
-  color: black;
+  background-color: rgb(96, 99, 99);
+  color: whitesmoke;
 }
 .wlcm-img-card{
 
 }
 body{
-  background-color: dimgrey;
+  background-color: rgb(31, 29, 29);
+  color: whitesmoke;
 }
 #logo{
   margin-top: 5%;
