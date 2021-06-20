@@ -15,18 +15,14 @@
   } 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
-.col-md{
-    color: rgb(85, 182, 47);
 }
 .form-group{
   background-color: rgb(31, 29, 29);
-  color: whitesmoke;
+  color: yellowgreen;
 }
-.wlcm-img-card{
-
 }
 body{
-  background-color: rgb(31, 29, 29);
+  background-color:red
   color: whitesmoke;
 }
 #logo{
