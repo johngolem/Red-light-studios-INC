@@ -14,12 +14,15 @@
       } 
   } 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-
+  font-family: 'PT Sans', sans-serif;
+  font-size: 100%;
 }
 .form-group{
   background-color: rgb(31, 29, 29);
   color: yellowgreen;
 }
+
+  
 }
 body{
   background-color:red
@@ -30,4 +33,7 @@ body{
 #aboutus{
   margin-top: 5px;
   margin-bottom: 40px;
+}
+#intro{
+  color: brown;
 }
