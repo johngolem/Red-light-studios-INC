@@ -39,7 +39,7 @@ $(document).ready(function () {
         $(".Kwadwo").addClass("projects");
     });
     $(".work2").mouseleave(function () {
-        $(".work").css('opacity', '1');
+        $(".work2").css('opacity', '1');
         $(".Kwadwo").hide();
     });
     $(".work3").mouseover(function () {
