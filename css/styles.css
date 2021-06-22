@@ -25,15 +25,20 @@
   
 }
 body{
-  background-color:red
-  color: whitesmoke;
+  background-color: cyan;
+  color: cyan;
+}
+#welcome{
+  color: blueviolet;
 }
 #logo{
   margin-top: 5%;
+}
 #aboutus{
   margin-top: 5px;
   margin-bottom: 40px;
 }
 #intro{
-  color: brown;
+  color: cyan;
+
 }
