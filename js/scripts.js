@@ -1,99 +1,84 @@
-$(document).ready(function () {
-
-    $("#design").click(function () {
-        $("#desdesc").toggle();
-        $("#design").toggle();
+$(document).ready(function(){
+    $("#development-image").click(function(){
+      $("#development-image").slideDown('1500').hide('1000');
+      $("#development").show('1500');
     });
-    $("#desdesc").click(function () {
-        $("#development").toggle();
-        $("#desdesc").toggle();
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#development-image").slideDown('1500');
     });
-    $("#development").click(function () {
-        $("#devp").toggle();
-        $("#development").toggle();
+  });
+  
+  $(document).ready(function(){
+    $("#design-image").click(function(){
+      $("#design-image").slideDown('1500').hide('1000');
+      $("#design").show('1500');
     });
-    $("#devp").click(function () {
-        $("#development").toggle();
-        $("#devp").toggle();
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#design-image").slideDown('1500');
     });
-    $("#product").click(function () {
-        $("#prd").toggle();
-        $("#product").toggle();
+  });
+  
+  $(document).ready(function(){
+    $("#product-image").click(function(){
+      $("#product-image").slideDown('1500').hide('1000');
+      $("#product").show('1500');
     });
-    $("#prd").click(function () {
-        $("#product").toggle();
-        $("#prd").toggle();
+    $("#product").click(function(){
+      $("#product").slideUp('1500');
+      $("#product-image").slideDown('1500');
     });
-    $(".work1").mouseover(function () {
-        $(".work1").css('opacity', '0.5');
-        $(".Kwasi").show();
-        $(".Kwasi").addClass("projects");
+  });
+  
+  $(document).ready(function(){
+    $("#work1").mouseover(function(){
+      $("#overlay").show();
+    }).mouseout(function(){
+      $("#overlay").hide();
     });
-    $(".work1").mouseleave(function () {
-        $(".work1").css('opacity', '1');
-        $(".Kwasi").hide();
+  });
+  $(document).ready(function(){
+    $("#work2").mouseover(function(){
+      $("#overlay2").show();
+    }).mouseout(function(){
+      $("#overlay2").hide();
     });
-    $(".work2").mouseover(function () {
-        $(".work2").css('opacity', '0.5');
-        $(".Kwadwo").show();
-        $(".Kwadwo").addClass("projects");
+  });
+  $(document).ready(function(){
+    $("#work3").mouseover(function(){
+      $("#overlay3").show();
+    }).mouseout(function(){
+      $("#overlay3").hide();
     });
-    $(".work2").mouseleave(function () {
-        $(".work2").css('opacity', '1');
-        $(".Kwadwo").hide();
+  });
+  $(document).ready(function(){
+    $("#work4").mouseover(function(){
+      $("#overlay4").show();
+    }).mouseout(function(){
+      $("#overlay4").hide();
     });
-    $(".work3").mouseover(function () {
-        $(".work3").css('opacity', '0.5');
-        $(".Kwabena").show();
-        $(".Kwabena").addClass("projects");
+  });
+  
+  $(document).ready(function(){
+    $("#work5").mouseover(function(){
+      $("#overlay5").show();
+    }).mouseout(function(){
+      $("#overlay5").hide();
     });
-    $(".work3").mouseleave(function () {
-        $(".work3").css('opacity', '1');
-        $(".Kwabena").hide();
+    $("#work6").mouseover(function(){
+      $("#overlay6").show();
+    }).mouseout(function(){
+      $("#overlay6").hide();
     });
-    $(".work4").mouseover(function () {
-        $(".work4").css('opacity', '0.5');
-        $(".Kwaku").show();
-        $(".Kwaku").addClass("projects");
+    $("#work7").mouseover(function(){
+      $("#overlay7").show();
+    }).mouseout(function(){
+      $("#overlay7").hide();
     });
-    $(".work4").mouseleave(function () {
-        $(".work4").css('opacity', '1');
-        $(".Kwaku").hide();
+    $("#work8").mouseover(function(){
+      $("#overlay8").show();
+    }).mouseout(function(){
+      $("#overlay8").hide();
     });
-    $(".work5").mouseover(function () {
-        $(".work5").css('opacity', '0.5');
-        $(".Kwame").show();
-        $(".Kwame").addClass("projects");
-    });
-    $(".work5").mouseleave(function () {
-        $(".work5").css('opacity', '1');
-        $(".Kwame").hide();
-    });
-    $(".work6").mouseover(function () {
-        $(".work6").css('opacity', '0.5');
-        $(".Abenaa").show();
-        $(".Abenaa").addClass("projects");
-    });
-    $(".work6").mouseleave(function () {
-        $(".work6").css('opacity', '1');
-        $(".Abenaa").hide();
-    });
-    $(".work7").mouseover(function () {
-        $(".work7").css('opacity', '0.5');
-        $(".Adwoa").show();
-        $(".Adwoa").addClass("projects");
-    });
-    $(".work7").mouseleave(function () {
-        $(".work7").css('opacity', '1');
-        $(".Adwoa").hide();
-    });
-    $(".work8").mouseover(function () {
-        $(".work8").css('opacity', '0.5');
-        $(".Akosua").show();
-        $(".Akosua").addClass("projects");
-    });
-    $(".work8").mouseleave(function () {
-        $(".work8").css('opacity', '1');
-        $(".Akosua").hide();
-    });
-});
+  });
